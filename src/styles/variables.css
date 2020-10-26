@@ -1,0 +1,40 @@
+:root {
+    /* global colors */
+    --gray: 173, 181, 189;
+    --green: 0, 205, 172;
+    --black: 34, 34, 34;
+    --white: 255, 255, 255;
+    --dark: 50, 50, 93;
+    --darker: 82, 95, 127;
+    --openblue: 74, 144, 226;
+
+    /* social address colors*/
+    --drrible: 234, 76, 137;
+    --facebook: 59, 89, 153;
+    --twitter: 29, 161, 242;
+    --github: 0, 0, 0;
+
+    /* global button colors */
+    --updateblue: 17, 205, 239;
+    --detailblue: 94, 114, 228;
+    --editgreen: 45, 206, 137;
+    --deletered: 251, 99, 64;
+
+    /* global radius value */
+    --radius: 4px;
+    --buttonradius: 3px;
+
+    /* global box shadows */
+    --buttonshadow: 0px 1px 3px rgba(0, 0, 0, 0.08),
+    0px 4px 4px rgba(var(--dark), 0.11);
+    --iconshadow: 0px 4px 6px rgba(var(--dark), 0.11),
+    0px 1px 4px rgba(0, 0, 0, 0.08);
+    --loginshadow: 220, 220, 225;
+
+    --padding: 22px;
+
+    /* global font variables */
+    --primaryfont: 14px;
+    --secondaryfont: 16px;
+    --line: 19px;
+}

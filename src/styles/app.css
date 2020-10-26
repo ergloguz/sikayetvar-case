@@ -1,0 +1,36 @@
+@import 'variables.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(var(--white));
+    color: inherit;
+    padding-bottom: 53px;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialButton {
+    height: 38px;
+    width: 38px;
+    margin-right: 12px;
+    border-radius: var(--radius);
+}
+
