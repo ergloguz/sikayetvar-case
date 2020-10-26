@@ -12,14 +12,6 @@ export default {
   methods:{
     submitForm(post){
       this.$emit("submitForm",post);
-      this.clearForm();
-    },
-    clearForm(){
-      this.formModel = {
-        bookName: "",
-        bookAuthor: "",
-        bookImage:"",
-      }
     },
   },
 
