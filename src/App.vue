@@ -1,32 +1,44 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div class="c">
+    <div class="image">
+      <img src="./assets/bg.png" alt="">
     </div>
-    <router-view/>
+
+    <Container>
+      <Header/>
+      <router-view/>
+      <Footer/>
+    </Container>
   </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-}
+</style>
+<script>
+import Container from "@/components/Container";
+import Header from "@/components/global/header";
+import Footer from "@/components/global/footer";
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+export default {
+  name:"App",
+  components: {
+    Footer,
+    Header,
+    Container,
+  }
 }
+</script>
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+<style>
+.c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  top: 0;
+  position: absolute;
+  z-index: -1;
 }
 </style>
