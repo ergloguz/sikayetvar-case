@@ -1,5 +1,5 @@
 <template>
-  <div class="c">
+  <div class="flexCenter">
     <div class="image">
       <img src="./assets/bg.png" alt="">
     </div>
@@ -31,11 +31,6 @@ export default {
 </script>
 
 <style>
-.c {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .image {
   top: 0;
   position: absolute;

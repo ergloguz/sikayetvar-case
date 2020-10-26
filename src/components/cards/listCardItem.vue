@@ -57,28 +57,22 @@ export default {
   border-top-right-radius: var(--radius);
   border-bottom-color: black;
   justify-content: space-between;
-
   &-button {
     display: flex;
     flex-direction: row;
   }
-
   &-id {
     font-weight: bold;
     font-size: var(--primaryfont);
-
     color: rgb(var(--darker));
   }
-
   &-text {
     font-size: var(--primaryfont);
     font-weight: lighter;
     color: rgb(var(--dark));
     margin-left: 12px;
   }
-
 }
-
 .detailButton {
   width: 86px;
   height: 43px;
@@ -86,7 +80,6 @@ export default {
   box-shadow: var(--buttonshadow);
   border-radius: var(--buttonradius);
   margin-right: 20px;
-
   &-text {
     color: rgb(var(--white));
     font-weight: bold;
@@ -94,15 +87,12 @@ export default {
     line-height: var(--line);
   }
 }
-
 .deleteButton {
   width: 63px;
   height: 43px;
   background-color: rgb(var(--deletered));
   box-shadow: var(--buttonshadow);
   border-radius: var(--buttonradius);
-  cursor: pointer;
-
   &-text {
     color: white;
     color: rgb(var(--white));
